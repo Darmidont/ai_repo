@@ -1,0 +1,21 @@
+.DS_Store
+
+#Local Visual Studio settings
+**/.vs
+
+#Build output directories
+**/bin/
+**/obj/
+
+#User-specific project files
+*.user
+/.vscode
+
+/*.log
+
+#git stash generates this on windows 10 machines
+/sh.exe.stackdump 
+
+/tests/contract/compiledTestDefinitions/
+.idea/
+src/main/secrets/
